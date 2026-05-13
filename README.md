@@ -29,13 +29,16 @@ El sistema permite ejecutar un flujo completo de gestión de identidad basado en
 
 - Este proyecto utiliza variables de entorno para la configuración.
 - El archivo `.env` no está incluido en el repositorio por seguridad.
+
   Ejemplo de variables necesarias:
+  
   ```env
 PORT=3000
 MONGO_URI=tu_conexion_mongodb_atlas
 JWT_SECRET=tu_clave_secreta
 EMAIL_USER=tu_correo@gmail.com
 EMAIL_PASS=tu_app_password_de_google
+
 
 ### Instalación y ejecución del proyecto
 1. **Clonar el repositorio**
